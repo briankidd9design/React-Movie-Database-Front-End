@@ -164,8 +164,8 @@ class Movies extends Component {
             onSort={this.handleSort}
           />
           <Pagination
-            // itemsCount={count}
-            itemsCount={totalCount}
+            itemsCount={count}
+            // itemsCount={totalCount}
             pageSize={pageSize}
             currentPage={currentPage}
             onPageChange={this.handlePageChange}
